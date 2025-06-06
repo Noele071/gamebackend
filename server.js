@@ -52,8 +52,6 @@ const pool = new Pool({
   }
 });
 
-// Create connection pool
-const pool = new Pool(dbConfig);
 
 // Test database connection
 pool.connect((err, client, release) => {
